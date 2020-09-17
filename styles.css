@@ -1,0 +1,72 @@
+html {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  
+  body {
+     margin: 0;
+  }
+  
+  #wrapper{
+    background-color:  #556677;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .box {
+    width: 60vw;
+    min-height: 40vh;
+    background-color: white;
+    margin:  auto;
+    padding: 50px;
+    font-family: arial, helvetica;
+    color: black;
+  }
+    
+  i {
+    color:  #556677;
+    font-size: 40px;
+    margin: 10px;
+  }
+  
+  button {
+    margin: 10px;
+    font-size: 14px;
+    float: right;
+    display: block;
+    background-color:  #556677;
+    color: white;
+    margin: 10px auto;
+    padding: 5px 10px;
+    border-radius: 3px ;
+    border:none;
+    outline: none;
+    cursor:pointer;
+  }
+
+  button:hover {
+    opacity:0.9;
+    transition: ease-in 0.5s;
+  }
+
+  .quote-text{
+    margin: 20px auto;
+    color: #556677;
+    font-size: 2rem;
+    text-align: center;
+    min-height: 100px;
+  }
+  
+  .quote-author {
+    margin: 20px auto;
+    color:  #556677;
+    text-align: right;
+  }
+  
+  a{
+    text-decoration: none;
+  }
